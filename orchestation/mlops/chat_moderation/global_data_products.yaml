@@ -1,0 +1,9 @@
+dataset:
+  object_type: pipeline
+  object_uuid: data_prepara
+  outdated_after:
+    seconds: 600
+  project: chat_moderation
+  repo_path: /home/src/mlops/chat_moderation
+  settings:
+    data_export: {}

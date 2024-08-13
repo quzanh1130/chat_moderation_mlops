@@ -1,0 +1,10 @@
+tensorflow[and-cuda]
+scikit-learn
+numpy
+pandas
+nltk
+matplotlib
+mlflow
+boto3
+evidently
+kaggle
