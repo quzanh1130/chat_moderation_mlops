@@ -219,8 +219,8 @@ Ensuring that the project is reproducible was a key focus. We followed best prac
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/your-repo/chat-moderation.git
-    cd chat-moderation
+    git clone https://github.com/quzanh1130/chat_moderation_mlops
+    cd chat_moderation_mlops
     ```
 
 2. **Deploy Mlflow (Tracking experiment):**
