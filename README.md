@@ -207,18 +207,8 @@ To deploy the containerized application on Lambda, follow these steps:
 - Custom alerting to notify the team about performance issues or data drift.
 
 ## Alert System
-An alert system was integrated with Slack to notify the team in case of data drift or performance issues.
 
-```python
-def send_alert(message):
-    # Send alert to Slack
-    url = "https://slack.com/api/chat.postMessage"
-    headers = {"Authorization": f"Bearer {SLACK_TOKEN}"}
-    data = {"channel": "#alerts", "text": message}
-    response = requests.post(url, headers=headers, json=data)
-    if response.status_code != 200:
-        print("Failed to send alert to Slack.")
-```
+  Not implement
 
 ## Reproducibility
 
@@ -246,13 +236,13 @@ Ensuring that the project is reproducible was a key focus. We followed best prac
 
   Run baseline code to have the init model and explore about data
 
-    ```bash
-      cd baseline
+  ```bash
+    cd baseline
 
-      conda create -n chat python=3.8 -y
-      conda activate chat
-      pip install -r requirements.txt
-    ```
+    conda create -n chat python=3.8 -y
+    conda activate chat
+    pip install -r requirements.txt
+  ```
 
   Run base baseline_model_chat_removal.ipynb notebook file.
 
@@ -271,16 +261,16 @@ Ensuring that the project is reproducible was a key focus. We followed best prac
 
 5. **Set up Grafana and Evident (Monitoring):**
 
-  Not implement
+    Not implement
 
 6. **Set up CI/CD and Deploy Webservice:**
 
-  Not implement
+    Not implement
 
 ### Code Formatter and Linter
 
-  Not implement
+    Not implement
 
 ### Makefile
 
-  Not implement
+     implement
